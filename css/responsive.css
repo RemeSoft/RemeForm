@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+    .area {
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        border-radius: 0;
+        display: block;
+        overflow: hidden;
+
+    }
+
+    .area__left {
+        height: 100vh;
+        border-radius: 0;
+        padding: 1rem;
+    }
+
+    .company {
+        font-size: 2.5rem;
+    }
+
+    .left__btn {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .area__right {
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        min-height: 100vh;
+        background-color: var(--color-white);
+        left: 100%;
+        transition: .5s;
+        overflow: scroll;
+        padding: 1rem 1.5rem;
+    }
+
+    .inputs {
+        height: auto;
+        grid-template-columns: 1fr;
+        padding: 1rem .1rem;
+    }
+
+    .item__input {
+        padding: 1rem;
+    }
+
+    .buttons__item:nth-child(2):hover,
+    .buttons__item:nth-child(3):hover {
+        gap: 2rem;
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mpdf/mpdf": "^8.1",
+        "shuchkin/simplexlsxgen": "^1.3",
+        "shuchkin/simplexlsx": "^1.0"
+    }
+}
