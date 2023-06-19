@@ -492,6 +492,23 @@ function upozilaSetter(selectorId, selectorSelfValue, selectedDistrictValue) {
     }
 }
 
+function previousTechnology(selectElement) {
+    var technology = document.getElementById("previous_edu_technology");
+    if (selectElement.value === "others") {
+        technology.style.display = "block";
+    } else {
+        technology.style.display = "none";
+    }
+}
+function presentTechnology(selectElement) {
+    var technology = document.getElementById("present_edu_technology");
+    if (selectElement.value === "others") {
+        technology.style.display = "block";
+    } else {
+        technology.style.display = "none";
+    }
+}
+
 // SELECTOR SETTER FUNCTION
 function dataSetter(counter, selector, selectorSetter) {
     selector[counter].addEventListener("click", function () {
@@ -506,7 +523,6 @@ function dataSetter(counter, selector, selectorSetter) {
 }
 
 //INITIALIZATION
-const inputPerPage = [16, 22, 28, 38, 46, 52, 57, 58, 61]
 let totalInputs = document.querySelectorAll(".item__input");
 let totalContent = contents.length - 1;
 let counter = 0;
@@ -534,6 +550,7 @@ leftButton.addEventListener("click", () => {
     rightArea.style.left = "0"
 });
 
+const inputPerPage = [16, 22, 28, 40, 49, 55, 60, 61, 80]
 nextButton.addEventListener("click", () => {
     if (totalContent > counter) {
         if (emptyChecker(totalInputs, inputPerPage, counter)) {

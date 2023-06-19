@@ -19,6 +19,11 @@
         font-size: 2.5rem;
     }
 
+    .team{
+        top: 1.3rem;
+        left: 7rem;
+    }
+
     .left__btn {
         display: flex;
         gap: 1rem;

@@ -13,60 +13,61 @@
 </head>
 
 <body>
+
+    <a class="connect" href="https://github.com/remesoft" target="_blank"><i class="connect__icon fa-brands fa-github"></i> Developed By Remesoft</a>
     <main class="area">
         <div class="area__left">
-            <a class="company" href="https://github.com/RemeSoft">Remesoft</a>
+            <a class="company" href="https://headway.edu.bd/" target="_blank">
+                <img src="./img/logo.png" alt="logo">
+            </a>
+
+            <div class="team">
+                <small class="team__sup">Headway</small>
+                <a class="team__name" href="https://github.com/remesoft" target="_blank">Enginnering Institute</a>
+            </div>
+
             <div>
                 <h1 class="left__title">উপবৃত্তির ফরম <br> পূরণ করুন অনলাইনে ।</h1>
                 <p class="left__desc">এখন খুব সহজেই আপনি আপনার উপবৃত্তির ফরমটি পূরণ করে ডাউনলোড করে নিতে পারেন।</p>
-                <button class="left__btn"><i class="fa-solid fa-file-lines"></i> ফরম সংগ্রহ করুন</button>
+                <button class="left__btn"><i class="fa-solid fa-file-lines"></i> ফরম পূরণ করুন</button>
             </div>
             <div class="testimonial">
-                <div class="your-class">
-                    <div>
-                        <div class="testimonial__box">
-                            <p class="testimonial:message">এই প্রজেক্টটি আমি তাকে ক্লাস প্রজেক্ট হিসেবে দিয়েছিলাম সে খুব
-                                ভালো
-                                করে সেটি তৈরী করেছে। </p>
-                            <div class="testimonial:owner">
-                                <div class="owner__img">
-                                    <img src="./img/teachers/kamran__sir.jpg" alt="">
-                                </div>
-                                <div class="owner__reference">
-                                    <h3 class="reference__name">Kamran Ahamed</h3>
-                                    <p class="reference__prof">Dept. Computer Technology</p>
+                        <div class="your-class">
+                            <div>
+                                <div class="testimonial__box">
+                                    <p class="testimonial:message">
+                                        উপবৃত্তির ফরম পূরণ অনলাইন প্রজেক্টটি 66654 - Web Engineering Project Course, CMT
+                                        5th Semester এর
+                                        একটি টিম প্রজেক্ট।
+                                    </p>
+                                    <div class="testimonial:owner">
+                                        <h6>Team Name: Team_RemeSoft</h6>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="testimonial__box">
-                            <p class="testimonial:message">এই প্রজেক্টটি আমি তাকে ক্লাস প্রজেক্ট হিসেবে দিয়েছিলাম সে খুব
-                                ভালো
-                                করে সেটি তৈরী করেছে। </p>
-                            <div class="testimonial:owner">
-                                <div class="owner__img">
-                                    <img src="./img/teachers/kamran__sir.jpg" alt="">
-                                </div>
-                                <div class="owner__reference">
-                                    <h3 class="reference__name">Kamran Ahamed</h3>
-                                    <p class="reference__prof">Dept. Computer Technology</p>
+                            <div>
+                                <div class="testimonial__box">
+                                    <p class="testimonial:message">Team Member:</p>
+                                    <div class="testimonial:owner">
+                                        <div class="owner__reference">
+                                            <h4 class="reference__name">Dwip Sarker</h4>
+                                            <p class="reference__prof">Dept. of Computer Technology</p>
+                                            <h4 class="reference__name">Sufian Ahmed</h4>
+                                            <p class="reference__prof">Dept. of Computer Technology</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="testimonial__box">
-                            <p class="testimonial:message">এই প্রজেক্টটি আমি তাকে ক্লাস প্রজেক্ট হিসেবে দিয়েছিলাম সে খুব
-                                ভালো
-                                করে সেটি তৈরী করেছে। </p>
-                            <div class="testimonial:owner">
-                                <div class="owner__img">
-                                    <img src="./img/teachers/kamran__sir.jpg" alt="">
-                                </div>
-                                <div class="owner__reference">
-                                    <h3 class="reference__name">Kamran Ahamed</h3>
-                                    <p class="reference__prof">Dept. Computer Technology</p>
+                            <div>
+                                <div class="testimonial__box">
+                                    <h4 class="testimonial:message">Project Supervisor:</h4>
+                                    <div class="testimonial:owner">
+                                        <div class="owner__reference">
+                                            <h4 class="reference__name">Md. Kamran Ahamad</h4>
+                                            <h5 class="reference__prof">Instructor & Head</h5>
+                                            <p class="reference__prof">Dept. of Computer Science & Technology</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +95,7 @@
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label">জন্ম সনদের নাম্বার</label>
-                                <input class="item__input" name="birth_certificate_no" type="text" spellcheck="false"
+                                <input class="item__input" name="birth_certificate_no" type="number" spellcheck="false"
                                     required>
                             </div>
                             <div class="inputs__item">
@@ -121,7 +122,7 @@
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label">পিতার এন আই ডি</label>
-                                <input class="item__input" name="father_nid" type="text" spellcheck="false" required>
+                                <input class="item__input" name="father_nid" type="number" spellcheck="false" required>
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label">পিতার জন্ম তারিখ</label>
@@ -130,7 +131,7 @@
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label">পিতার মোবাইল নম্বর</label>
-                                <input class="item__input" name="father_mobile_number" type="text" spellcheck="false"
+                                <input class="item__input" name="father_mobile_number" type="number" spellcheck="false"
                                     required>
                             </div>
                             <div class="inputs__item">
@@ -152,7 +153,7 @@
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label">মাতার এন আই ডি</label>
-                                <input class="item__input" name="mother_nid" type="text" spellcheck="false" required>
+                                <input class="item__input" name="mother_nid" type="number" spellcheck="false" required>
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label">মাতার জন্ম তারিখ</label>
@@ -161,7 +162,7 @@
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label">মাতার মোবাইল নম্বর</label>
-                                <input class="item__input" name="mother_mobile_number" type="text" spellcheck="false"
+                                <input class="item__input" name="mother_mobile_number" type="number" spellcheck="false"
                                     required>
                             </div>
                         </div>
@@ -201,7 +202,7 @@
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label" for="name">পোস্ট কোড</label>
-                                <input class="item__input" type="text" name="permanent_postcode" required>
+                                <input class="item__input" type="number" name="permanent_postcode" required>
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label" for="name">ঠিকানা / গ্রাম</label>
@@ -245,7 +246,7 @@
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label" for="name">পোস্ট কোড</label>
-                                <input class="item__input" type="text" name="present_postcode" required>
+                                <input class="item__input" type="number" name="present_postcode" required>
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label" for="name">ঠিকানা / গ্রাম</label>
@@ -307,13 +308,17 @@
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label" for="name">টেকনোলজি/ট্রেড</label>
-                                <select class="item__input" name="previous_edu_technology">
-                                    <option value="">NULL</option>
+                                <select class="item__input" name="previous_edu_technology" onchange="previousTechnology(this)" required>
+                                    <option value="">টেকনোলজি সিলেক্ট করুন</option>
                                     <option value="কম্পিউটার টেকনোলজি">কম্পিউটার টেকনোলজি</option>
                                     <option value="সিভিল টেকনোলজি">সিভিল টেকনোলজি</option>
                                     <option value="ইলেকট্রনিক্স টেকনোলজি">ইলেকট্রনিক্স টেকনোলজি</option>
                                     <option value="আর্কিটেকচার টেকনোলজি">আর্কিটেকচার টেকনোলজি</option>
+                                    <option value="others">Others</option>
                                 </select>
+                                <input class="item__input" style="display: none;" 
+                                type="text" name="other_previous_edu_technology"
+                                id="previous_edu_technology">
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label" for="name">পূর্ববর্তী পরীক্ষার নাম</label>
@@ -325,15 +330,15 @@
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label" for="name">বোর্ড রোল</label>
-                                <input class="item__input" type="text" name="previous_edu_roll" required>
+                                <input class="item__input" type="number" name="previous_edu_roll" required>
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label" for="name">বোর্ড রেজিস্ট্রেশন</label>
-                                <input class="item__input" type="text" name="previous_edu_reg" required>
+                                <input class="item__input" type="number" name="previous_edu_reg" required>
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label" for="name">ফলাফল (জিপিএ)</label>
-                                <input class="item__input" type="text" name="previous_edu_gpa" required>
+                                <input class="item__input" type="number" name="previous_edu_gpa" required>
                             </div>
                         </div>
                     </div>
@@ -369,7 +374,7 @@
                             <div class="inputs__item">
                                 <label class="item__label" for="name">প্রতিষ্ঠানের নাম</label>
                                 <input class="item__input" type="text" name="present_edu_school"
-                                    value="হেডওয়ে ইঞ্জিনিয়ারিং ইনস্টিটিউট ।" required>
+                                    value="" required>
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label" for="name">শ্রেনী</label>
@@ -385,20 +390,25 @@
                                 </select>
                             </div>
                             <div class="inputs__item">
-                                <label class="item__label" for="name">টেকনোলজি/ট্রেড</label>
-                                <select class="item__input" name="present_edu_technology" required>
+                                <label class="item__label">টেকনোলজি/ট্রেড</label>
+                                <select class="item__input" name="present_edu_technology" onchange="presentTechnology(this)" required>
+                                    <option value="">টেকনোলজি সিলেক্ট করুন</option>
                                     <option value="কম্পিউটার টেকনোলজি">কম্পিউটার টেকনোলজি</option>
                                     <option value="সিভিল টেকনোলজি">সিভিল টেকনোলজি</option>
                                     <option value="ইলেকট্রনিক্স টেকনোলজি">ইলেকট্রনিক্স টেকনোলজি</option>
                                     <option value="আর্কিটেকচার টেকনোলজি">আর্কিটেকচার টেকনোলজি</option>
+                                    <option value="others">Others</option>
                                 </select>
+                                <input class="item__input" style="display: none;" 
+                                type="text" name="other_present_edu_technology"
+                                id="present_edu_technology">
                             </div>
                             <div class="inputs__item">
-                                <label class="item__label" for="name">শিফট এবং গ্রুপ</label>
+                                <label class="item__label">শিফট এবং গ্রুপ</label>
                                 <input class="item__input" type="text" name="present_edu_group">
                             </div>
                             <div class="inputs__item">
-                                <label class="item__label" for="name">রোল</label>
+                                <label class="item__label">রোল</label>
                                 <input class="item__input" type="text" name="current_edu_roll" required>
                             </div>
                         </div>
@@ -528,11 +538,11 @@
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label" for="name">অ্যাকাউন্টধারীর এনআইডি নম্বর</label>
-                                <input class="item__input" type="text" name="mobile_nid" required>
+                                <input class="item__input" type="number" name="mobile_nid" required>
                             </div>
                             <div class="inputs__item">
                                 <label class="item__label" for="name">অ্যাকাউন্ট নম্বর</label>
-                                <input class="item__input" type="text" name="mobile_number" required>
+                                <input class="item__input" type="number" name="mobile_number" required>
                             </div>
                         </div>
                     </div>
@@ -561,6 +571,7 @@
         $('.your-class').slick({
             autoplay: true,
             arrows: false,
+            autoplaySpeed: 5000,
         })
     });
     </script>

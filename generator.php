@@ -47,6 +47,9 @@ if(isset($_POST['download'])){
     $previous_edu_passyear = $_POST['previous_edu_passyear'];
     $previous_edu_board = $_POST['previous_edu_board'];
     $previous_edu_technology = $_POST['previous_edu_technology'];
+    if($previous_edu_technology=="others"){
+        $previous_edu_technology = $_POST['other_previous_edu_technology'];
+    }
     $previous_edu_exam = $_POST['previous_edu_exam'];
     $previous_edu_roll = $_POST['previous_edu_roll'];
     $previous_edu_reg = $_POST['previous_edu_reg'];
@@ -59,6 +62,9 @@ if(isset($_POST['download'])){
     $present_edu_school = $_POST['present_edu_school'];
     $present_edu_semester = $_POST['present_edu_semester'];
     $present_edu_technology = $_POST['present_edu_technology'];
+    if($present_edu_technology=="others"){
+        $present_edu_technology = $_POST['other_present_edu_technology'];
+    }
     $present_edu_group = $_POST['present_edu_group'];
     $current_edu_roll = $_POST['current_edu_roll'];
 
@@ -156,7 +162,6 @@ if(isset($_POST['download'])){
                 $GLOBALS['disability__options'] = str_replace($value, $replacement, $disability__options);
                 break;
             case 8:
-                echo $value;
                 $GLOBALS['payment__options'] = str_replace($value, $replacement, $payment__options);
                 break;
         }
@@ -245,7 +250,6 @@ if(isset($_POST['download'])){
 
     $fieldsArray = array(
 
-        // 
         $name_bangla,
         $name_english,
         $birth_certificate_no,
@@ -334,7 +338,8 @@ if(isset($_POST['download'])){
     $mpdf->AddPage();
     require('./pages/page_two.php');
     $mpdf->WriteHTML($html);
-    $mpdf->Output('Remeform.pdf', 'D');
+    $mpdf->Output('form.pdf', 'D');
+
 
     // // GENERATE XLS
     // if($reader = SimpleXLSX::parse('headway.xlsx')){
